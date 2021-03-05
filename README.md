@@ -1,9 +1,10 @@
 # How to show different currency symbol based on data in GridCurrencyColumn in WPF DataGrid(SfDataGrid)?
 
 ## About the sample
-How to show different currency symbol based on data in GridCurrencyColumn in WPF DataGrid(SfDataGrid)?
 
-By default, SfDataGrid does not provide the support show the different currency symbol based on data in GridCurrencyColumn. You can achieve this by adding converter for Currency symbol and assigned it for edit element in OnInitializeEditElement method of GridCellCurrencyRenderer.
+This sample show cases how to show different currency symbol based on data in GridCurrencyColumn in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid)?
+
+[WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) does not provide the support to show the different currency symbol based on the data in [GridCurrencyColumn](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GridCurrencyColumn.html). You can achieve this by adding converter for currency symbol and assigned it for edit element in [OnInitializeEditElement](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.TreeGrid.Cells.TreeGridVirtualizingCellRendererBase%602~OnInitializeEditElement.html) method of [GridCellCurrencyRenderer](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.Cells.GridCellCurrencyRenderer.html?_ga=2.191477162.1055857806.1595159344-393461464.1573033696).
 
 ```c#
 public class CurrencyConverter : IValueConverter
