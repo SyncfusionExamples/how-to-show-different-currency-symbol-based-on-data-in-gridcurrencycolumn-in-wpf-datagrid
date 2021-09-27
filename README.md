@@ -55,6 +55,8 @@ this.AssociatedObject.CellRenderers.Add("Currency", new GridCellCurrencyRenderer
 }
 ```
 
+KB article - [How to show different currency symbol based on data in GridCurrencyColumn in WPF DataGrid(SfDataGrid)?](https://www.syncfusion.com/kb/11755/how-to-show-different-currency-symbol-based-on-data-in-gridcurrencycolumn-in-wpf-datagrid)
+
 ## Requirements to run the demo
 
 Visual Studio 2015 and above versions
