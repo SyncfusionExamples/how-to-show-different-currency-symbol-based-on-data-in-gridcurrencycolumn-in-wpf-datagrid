@@ -2,7 +2,7 @@
 
 This sample show cases how to show different currency symbol based on data in `GridCurrencyColumn` in [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid).
 
-`DataGrid` does not provide the support to show the different currency symbol based on the data in [GridCurrencyColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridCurrencyColumn.html). You can achieve this by adding converter for currency symbol and assigned it for edit element in [OnInitializeEditElement](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.Cells.TreeGridVirtualizingCellRendererBase-2.html#Syncfusion_UI_Xaml_TreeGrid_Cells_TreeGridVirtualizingCellRendererBase_2_OnInitializeEditElement_Syncfusion_UI_Xaml_TreeGrid_TreeDataColumnBase__1_System_Object_) method of [GridCellCurrencyRenderer](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.Cells.GridCellCurrencyRenderer.html).
+`DataGrid` does not provide the support to show the different currency symbol based on the data in [GridCurrencyColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridCurrencyColumn.html). You can achieve this by adding converter for currency symbol and assigned it for edit element in [OnInitializeEditElement](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.Cells.GridVirtualizingCellRendererBase-2.html#Syncfusion_UI_Xaml_Grid_Cells_GridVirtualizingCellRendererBase_2_OnInitializeEditElement_Syncfusion_UI_Xaml_Grid_DataColumnBase__1_System_Object_) method of [GridCellCurrencyRenderer](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.Cells.GridCellCurrencyRenderer.html).
 
 
 ```c#
